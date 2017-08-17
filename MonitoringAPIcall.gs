@@ -42,22 +42,6 @@ function checkTestID(form){
   }
 }
 
-//============================UNIT TESTING
-function testgetLoadTimeData(){
- var form = new Object();
-  form.servertime = true;
-  form.domloadtime = true;
-  form.apikey ='ra2Dv8QkIJI6YGc6sfJ';
-  form.testid = '41291';
-  form.timeframe = 'custom';
-  form.fromDate = '2017-07-01';
-  form.toDate = '2017-07-07';
-  
-  getFormData(form);  
-}
-//==================================
-
-
 //==========================================================================================================
 //determine which load times to pull
 function getFormData(form){

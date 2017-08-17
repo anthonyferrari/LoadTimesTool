@@ -2,11 +2,9 @@
 
 Use Google Sheets to pull load time data from Rigor.
 
-The tool uses your Rigor Monitoring API key to access your Real Browser Check (RBC) data. Using the appropriate Check ID, you can then pull the following metrics over a specified timeframe: Sserver Time, Start Render Time, DOM Load Time, Onload Time, Visually Complete Time, Fully Loaded Time, or Speed Index. In addition, you can select multiple Load Times simultaneously with each Load Time populating a new sheet.
+The tool uses your Rigor Monitoring API key to access your Real Browser Check (RBC) data. Using the appropriate Check ID, you can then pull the following metrics over a specified timeframe: Server Time, Start Render Time, DOM Load Time, Onload Time, Visually Complete Time, Fully Loaded Time, and Speed Index. In addition, you can select multiple Load Times simultaneously with each Load Time populating a new sheet.
 
 If you have questions about these timing metrics, please reference Rigor’s [Knowledge Base](https://help.rigor.com/hc/en-us/articles/115006741308-Performance-Metrics-Glossary).
-
-You can select multiple load times simultaneously, with each load time type populating a new sheet.
 
 NOTE: This tool is NOT supported by Rigor, rather it is offered for free based on feedback from customers.
 
